@@ -43,7 +43,7 @@ public class App {
 
     public static void readText() {
         try {
-            File file = new File("Orders.txt");
+            File file = new File("Orderss.txt");
                 Scanner in = new Scanner(file);
                 for (int i = 0; i < 4; i++) {
                     String data = in.nextLine();
